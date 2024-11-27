@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Consultas</title>
+    <link rel="stylesheet" href="./agend.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inicio">
+            <h1>Agendamento de Consulta</h1>
+            <button  id="menuButton">Agendar</button>
+        </div>
+
+        <form class="appointment-form" id="appointment-form">
+            <ul class="form-ul">
+               <li class="form-li">
+                  <label for="name">Nome do Paciente</label>
+                  <input type="text" id="name" placeholder="Digite o nome" required>
+               </li>
+               <li class="form-li">
+                   <label for="date">Data</label>
+                   <input type="date" id="date" required>
+               </li>
+               <li class="form-li">
+                   <label for="time">Hora</label>
+                   <input type="time" id="time" required>
+               </li>
+               <li class="form-li">
+                   <label for="text">Aviso</label>
+                   <input type="text" id="aviso" placeholder="Aviso" required>
+               </li>
+               <li class="form-li">
+                <label for="text">Medico</label>
+                <select>
+                    <option id="medic">Marcos</option>
+                    <option id="medic1">Antonio</option>
+                    <option id="medic2">Silva</option>
+                 </select>
+               </li>
+               <button type="submit">Agendar</button>
+            </ul>
+        </form>
+
+        <ul class="appointments-list" id="appointments-list">
+            <!-- Lista de agendamentos será exibida aqui -->
+            
+        </ul>
+    </div>
+
+
+    <script src="./agend.js"></script>
+</body>
+</html>

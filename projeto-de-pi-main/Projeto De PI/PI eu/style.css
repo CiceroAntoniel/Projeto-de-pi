@@ -1,0 +1,107 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #dad8d8;
+    height: 735px;
+}
+.login{
+    width: 50%;
+    height: 600px;
+    margin-top: 40px;
+    
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(74, 74, 75);
+    padding: 40px;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    border: 1px gray solid;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    color: rgb(163, 160, 160);
+
+}
+
+.input-group{
+    padding-top: 13px;
+    margin-top: 5%;
+}
+  
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(1, 196, 255);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    color: rgb(255, 255, 255);
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/* Adiciona estilos para o campo de senha e o ícone */
+.password-wrapper {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    top: 83%;
+    right: 10px;
+    transform: translateY(-100%);
+    cursor: pointer;
+    font-size: 20px;
+    color: #b8b6b6;
+}
+
+.eye-icon:hover {
+    color: #0056b3;
+}
+
+.link{
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+    font-size: 14px;
+}
+.banner{
+    width: 50%;
+    background-image: url(./img/istockphoto-1349328691-612x612.jpg);
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
